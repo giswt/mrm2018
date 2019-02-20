@@ -185,7 +185,11 @@ $(function () {
             [
                 {field:"id",title:"ID",align:"center",edit:false; //返回行号
                 },
-                {field:"name",title:"ActionName",align:"center",order:"asc",sortable:"true"},
+                {field:"name",title:"ActionName",align:"center",order:"asc",sortable:"true",
+				editable:{mode:"inline",
+				type:"input"
+				}
+				},
                 {field:"price",title:"Category",align:"center",sortable:"true"},
                 
             ]
