@@ -178,7 +178,9 @@ $(function () {
     $('#table').bootstrapTable({
         data: mydata,
 		editable:true,//开启编辑模式
-        clickToSelect: true
+        clickToSelect: true,
+		showColumns: true,                  //是否显示所有的列
+        showRefresh: true,
     });
 });
 
